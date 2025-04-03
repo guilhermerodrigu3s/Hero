@@ -25,6 +25,4 @@ Este projeto está protegido por direitos autorais e **não possui licença para
 
 ---
 
-Se precisar de mais ajustes, só avisar! 🚀🔥  
-
 
