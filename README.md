@@ -9,7 +9,7 @@ Este repositório contém a **Hero Section** de uma loja fictícia de açaí, de
 
 ## 🎨 Preview  
 
-![Hero Section Preview](screenshot.jpg)  
+![Hero Section Preview](hero/screenshot.JPG)  
 
 ## 📚 Créditos  
 
