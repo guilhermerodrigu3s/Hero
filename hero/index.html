@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Omnifood Hero Section</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+      header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.3),
+            rgba(34, 34, 34, 0.3)
+          ),
+          url(hero.png);
+        background-size: cover;
+        color: #dadada;
+      }
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+      }
+      p {
+        font-size: 26px;
+
+        font-weight: 700;
+      }
+      .header-container {
+        font-size: 44px;
+
+        position: absolute;
+        width: 1200px;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 50%);
+      }
+      .header-inner-container {
+        width: 50%;
+      }
+      h1 {
+        font-size: 52px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+      }
+      .text {
+        font-size: 24px;
+        margin-bottom: 62px;
+        line-height: 1.5;
+      }
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #fa5252;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <nav class="container">
+          <p>LOGO</p>
+          <p>NAVIGATION</p>
+        </nav>
+
+        <div class="header-container">
+          <div class="header-inner-container">
+            <h1>O Açaí Mais Cremoso da Cidade!</h1>
+            <p class="text">
+              Sabor irresistível, ingredientes naturais e a energia que você
+              precisa no dia a dia. Peça agora e se refresque!
+            </p>
+
+            <a href="#" class="btn">Peça Agora</a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <h2>Some random heading</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+            nemo molestiae aperiam, ullam, itaque eveniet quibusdam sed nam
+            omnis earum iste sunt temporibus necessitatibus voluptates aut
+            harum! Quod, ratione commodi!
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
